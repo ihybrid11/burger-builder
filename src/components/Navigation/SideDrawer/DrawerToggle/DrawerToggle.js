@@ -4,8 +4,10 @@ import Logo from '../../../Logo/Logo';
 
 
 const drawerToggle = (props) => (
-    <div onClick={props.clicked}>
-        MENU
+    <div className={classes.DrawerToggle} onClick={props.clicked}>
+        <div></div>
+        <div></div>
+        <div></div>
     </div>
 );
 
